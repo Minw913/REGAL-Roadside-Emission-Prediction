@@ -7,7 +7,7 @@
 ---
 
 ## Project Overview
-This master's thesis explores the prediction of NO<sub>2</sub> concentrations at roadside monitoring stations in London. Utilizing spatiotemporal neural networks and trained using a spatiotemporal dataset of hourly air pollutant concentrations collected from the [London Air Quality Network (LAQN)](https://www.londonair.org.uk/london/asp/publicdetails.asp), this study aims to improve air quality predictions by modeling both spatial and temporal dependencies in air pollutant dispersion. The study offers a data-driven approach for enhancing transportation policy and urban planning efforts by better understanding emission patterns.
+This study explores the prediction of NO<sub>2</sub> concentrations at roadside monitoring stations in London. Utilizing spatiotemporal neural networks and trained using a spatiotemporal dataset of hourly air pollutant concentrations collected from the [London Air Quality Network (LAQN)](https://www.londonair.org.uk/london/asp/publicdetails.asp), this study aims to improve air quality predictions by modeling both spatial and temporal dependencies in air pollutant dispersion. The study offers a data-driven approach for enhancing transportation policy and urban planning efforts by better understanding emission patterns.
 
 
 ### Key Contributions
