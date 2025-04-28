@@ -15,6 +15,8 @@ This study explores the prediction of NO<sub>2</sub> concentrations at roadside 
 - **Developed** a spatiotemporal dynamic graph, accounting for geographical proximity and wind-driven dispersion.
 - **Designed** a hybrid model combining Long Short-Term Memory (LSTM) networks and Graph Attention Networks (GAT), which outperformed traditional baselines.
 
+![Description](Framework.png)
+
 ### Results   
 The proposed model (REGAL) outperforms existing baselines in prediction accuracy. Specifically, the graph attention mechanism improves accuracy by 12.5% and the encoder-decoder architecture in LSTM extends the forecast horizon to 12 hours, with superior performance in long-term (9-12h) predictions over short-term (1-4h).  
 <table>
