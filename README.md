@@ -9,13 +9,12 @@
 ## Project Overview
 This study explores the prediction of NO<sub>2</sub> concentrations at roadside monitoring stations in London. Utilizing spatiotemporal neural networks and trained using a spatiotemporal dataset of hourly air pollutant concentrations collected from the [London Air Quality Network (LAQN)](https://www.londonair.org.uk/london/asp/publicdetails.asp), this study aims to improve air quality predictions by modeling both spatial and temporal dependencies in air pollutant dispersion. The study offers a data-driven approach for enhancing transportation policy and urban planning efforts by better understanding emission patterns.
 
+![The method framework of proposed problem ](Framework.png)
 
 ### Key Contributions
 - **Compiled** a comprehensive feature set, categorizing data into spatial static features (e.g., road conditions, traffic characteristics) and temporal features (e.g., historical emissions, weather conditions).
 - **Developed** a spatiotemporal dynamic graph, accounting for geographical proximity and wind-driven dispersion.
 - **Designed** a hybrid model combining Long Short-Term Memory (LSTM) networks and Graph Attention Networks (GAT), which outperformed traditional baselines.
-
-![The method framework of proposed problem ](Framework.png)
 
 ### Results   
 The proposed model (REGAL) outperforms existing baselines in prediction accuracy. Specifically, the graph attention mechanism improves accuracy by 12.5% and the encoder-decoder architecture in LSTM extends the forecast horizon to 12 hours, with superior performance in long-term (9-12h) predictions over short-term (1-4h).  
